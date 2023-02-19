@@ -1,0 +1,28 @@
+{
+    "name": "mpietrucha/laravel-eloquent-like-builder",
+    "description": "Laravel Eloquent Like builder",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mpietrucha\\LaravelEloquentLikeBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michał Pietrucha",
+            "email": "michal.pietrucha@off-site.pl"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "mpietrucha/laravel-macros": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mpietrucha\\LaravelEloquentLikeBuilder\\LikeBuilderServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
